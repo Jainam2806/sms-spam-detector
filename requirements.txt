@@ -32,7 +32,6 @@ pytz-deprecation-shim
 referencing
 regex
 requests
-rpds-py
 scikit-learn
 scipy
 six
