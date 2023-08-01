@@ -18,7 +18,7 @@ python-dateutil
 pytz
 regex
 scikit-learn
-scipy
+scipy==1.11.1
 six
 streamlit
 threadpoolctl
