@@ -5,12 +5,10 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import nltk
 
-nltk.download('punkt')
-nltk.download('stopwords')
 ps = PorterStemmer()
 
-tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
-model = pickle.load(open('model.pkl','rb'))
+tfidf = pickle.load(open('vectorizer173.pkl', 'rb'))
+model = pickle.load(open('model173.pkl','rb'))
 
 st.title("Email/SMS Spam Classifier")
 input_sms = st.text_area("Enter the message")
